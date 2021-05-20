@@ -1,0 +1,14 @@
+{
+  "pages": [
+    "pages/classic/classic",
+    "components/classic/movie/index",
+    "components/classic/essay/index"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTitleText": "LostElk",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#ffffff",
+    "enablePullDownRefresh": false
+  }
+}

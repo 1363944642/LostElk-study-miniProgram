@@ -1,0 +1,9 @@
+<view class="container">
+  <view class="header">
+    <l-epsoide class="epsoide" index="{{classicData.index}}"></l-epsoide>
+    <l-like class="like" bind:like="onLike" like="{{classicData.like_status}}" count="{{classicData.fav_nums}}">
+    </l-like>
+  </view>
+  <l-movie img="{{classicData.image}}" content="{{classicData.content}}"></l-movie>
+  <l-navi bind:left="onNext" bing:right="onPrevious" title="{{classicData.title}}" first="{{first}}" latest="{{latest}}" class="navi"></l-navi>
+</view>

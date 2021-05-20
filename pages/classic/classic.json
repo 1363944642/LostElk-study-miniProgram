@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "l-like": "/components/like/index",
+    "l-movie": "/components/classic/movie/index",
+    "l-epsoide": "/components/epsoide/index",
+    "l-navi": "/components/navi/index"
+  }
+}

@@ -1,0 +1,20 @@
+
+.contenter {
+  display: inline-flex;
+  flex-direction: row;
+  padding: 10rpx;
+  width: 90rpx;
+}
+.contenter image {
+  width: 32rpx;
+  height: 28rpx;
+}
+
+.contenter text {
+  font-size: 24rpx;
+  line-height: 24rpx;
+  color: #bbbbbb;
+  position: relative; 
+  bottom: 10rpx;
+  right: 6rpx;
+}
